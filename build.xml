@@ -1,0 +1,15 @@
+<project default="dist-src">
+    <target name="dist-src">
+     <!--      <delete file="charnetskaya.zip"/>-->
+       <zip file="charnetskaya.zip">
+           <fileset dir="src">
+               <include name="**/*" />
+           </fileset>
+           <fileset dir="test">
+               <include name="**/*" />
+           </fileset>
+          
+       </zip>
+    </target>
+</project>
+

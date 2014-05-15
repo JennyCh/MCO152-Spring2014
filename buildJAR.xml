@@ -1,0 +1,18 @@
+<project name="antsimple" default="dist" basedir=".">
+    
+    <target name="dist" description="generate the destribution">
+        <jar jarfile="Charnetskaya.jar">
+            <zipgroupfileset dir="libs" includes="**/*.jar"/>
+                <manifest>
+                    <attribute name="Main-Class" value="charnetskaya.forecast.Forecast"/>
+                        
+                   
+                </manifest>
+                <fileset dir="./bin">
+                    <include name="charnetskaya/forecast/*.class"/>
+                    <include name="charnetskaya/forecast/*.txt" />
+                </fileset>
+            
+        </jar>
+    </target>
+</project>

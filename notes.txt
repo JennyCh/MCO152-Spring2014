@@ -1,0 +1,7 @@
+each project is another repository
+check out or pull - when u dowanload updates from GitHub
+upload 2 step process - change code and commit - this is the unit work i done and i want to commit it
+commit is local to your machine, 
+pull - commits from github
+commit - 
+push
