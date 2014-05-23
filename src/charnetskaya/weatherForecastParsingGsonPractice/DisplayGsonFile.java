@@ -12,7 +12,7 @@ import com.google.gson.Gson;
 public class DisplayGsonFile {
 	
 	public static void main (String [] args) throws IOException{
-		URL url = null;
+	URL url = null;
 		
 		url = new URL("http://api.openweathermap.org/data/2.5/forecast/daily?q=brooklyn&mode=gson&units=metric&cnt=7");
 		URLConnection connection  = null;
